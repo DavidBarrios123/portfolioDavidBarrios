@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David Barrios García | Portfolio</title>
+<meta name="description" content="Portfolio de videojuegos de David Barrios García. Proyectos de UDIT y GameJams.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a href="#map" class="skip-link">Saltar al mapa de proyectos</a>
+<div class="bg-grid" aria-hidden="true"></div>
+
+<!-- =================== SOBRE MÍ =================== -->
+<header class="about">
+  <div class="about__inner">
+    <p class="eyebrow">Sobre mí</p>
+    <h1>David Barrios García<span>Desarrollo y diseño de videojuegos</span></h1>
+    <p>
+      Mis trabajos realizados durante mis estudios en UDIT y en distintas
+      GameJams. Cada proyecto explora una mecánica o una idea diferente:
+      desde plataformas y terror hasta juegos de cartas y puzles.
+    </p>
+
+    <dl class="contact-grid">
+      <div>
+        <dt>Teléfono</dt>
+        <dd><a href="tel:+34676701991">+34 676 70 19 91</a></dd>
+      </div>
+      <div>
+        <dt>Email</dt>
+        <dd><a href="mailto:davidbarrgar@gmail.com">davidbarrgar@gmail.com</a></dd>
+      </div>
+      <div>
+        <dt>Discord</dt>
+        <dd>pecho_esponja</dd>
+      </div>
+      <div>
+        <dt>Ubicación</dt>
+        <dd>Puente de Vallecas, Madrid</dd>
+      </div>
+    </dl>
+
+    <p class="scroll-cue"><span class="dot" aria-hidden="true"></span> Baja la bola para empezar a explorar</p>
+  </div>
+</header>
+
+<details class="fallback">
+  <summary>Prefiero una lista de proyectos</summary>
+  <div class="fallback-grid">
+    <a href="juegos/metro-lines.html">Metro Lines</a>
+    <a href="juegos/coins-only.html">Coins Only!</a>
+    <a href="juegos/space-tycoon.html">Space Tycoon</a>
+    <a href="juegos/brilliant-secrets.html">Brilliant Secrets</a>
+    <a href="juegos/its-a-cow-boy.html">It's a Cow-Boy</a>
+    <a href="juegos/paradoffee.html">Paradoffee</a>
+    <a href="juegos/nivel-plataforma.html">Nivel Plataforma</a>
+    <a href="juegos/angels-maze.html">Angel's Maze</a>
+    <a href="juegos/fes-ti-val.html">FES-TI-VAL</a>
+    <a href="juegos/gps.html">G.P.S: Ghost Papers Scissors</a>
+    <a href="juegos/bread-of-blood.html">Bread Of Blood</a>
+    <a href="juegos/memories-of-isaac.html">The Memories of Isaac</a>
+    <a href="juegos/metal-y-plomo.html">Metal y Plomo</a>
+  </div>
+</details>
+
+<!-- =================== INTRO AL MAPA =================== -->
+<section class="map-intro">
+  <h2>Elige un proyecto</h2>
+  <p>Arrastra la bola hacia abajo. Suéltala en un cruce y muévela a izquierda
+    o derecha para entrar en uno de los dos juegos.</p>
+</section>
+
+<!-- =================== MAPA INTERACTIVO =================== -->
+<section id="map" aria-label="Mapa de proyectos">
+  <div id="map-track">
+    <svg id="map-svg" aria-hidden="true"></svg>
+
+    <div class="start-marker" data-start-marker>salida</div>
+
+    <!-- Fila 1 -->
+    <div class="label side-left" data-row="0" data-side="left">
+      <img class="label__cover" src="https://img.itch.zone/aW1nLzI4MzA3MDcxLnBuZw==/original/C2ZS1Y.png" alt="Carátula de Metro Lines" loading="lazy">
+      <span class="label__title">Metro Lines</span>
+      <span class="label__tag">Julio 2026</span>
+    </div>
+    <div class="label side-right" data-row="0" data-side="right">
+      <img class="label__cover" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3897600/67b14f4c49abf2504e299ad47745933ce30213ba/header.jpg?t=1763642977" alt="Carátula de Coins Only!" loading="lazy">
+      <span class="label__title">Coins Only!</span>
+      <span class="label__tag">Noviembre 2025</span>
+    </div>
+
+    <!-- Fila 2 -->
+    <div class="label side-left" data-row="1" data-side="left">
+      <img class="label__cover" src="img/covers/space-tycoon.jpg" alt="Carátula de Space Tycoon - Declassified Adventure" loading="lazy">
+      <span class="label__title">Space Tycoon</span>
+      <span class="label__tag">Mayo 2025</span>
+    </div>
+    <div class="label side-right" data-row="1" data-side="right">
+      <img class="label__cover" src="img/covers/brilliant-secrets.jpg" alt="Carátula de Brilliant Secrets" loading="lazy">
+      <span class="label__title">Brilliant Secrets</span>
+      <span class="label__tag">Mayo 2025</span>
+    </div>
+
+    <!-- Fila 3 -->
+    <div class="label side-left" data-row="2" data-side="left">
+      <img class="label__cover" src="img/covers/its-a-cow-boy.jpg" alt="Carátula de It's a Cow-Boy" loading="lazy">
+      <span class="label__title">It's a Cow-Boy</span>
+      <span class="label__tag">Marzo 2025</span>
+    </div>
+    <div class="label side-right" data-row="2" data-side="right">
+      <img class="label__cover" src="img/covers/paradoffee.jpg" alt="Carátula de Paradoffee" loading="lazy">
+      <span class="label__title">Paradoffee</span>
+      <span class="label__tag">Febrero 2025</span>
+    </div>
+
+    <!-- Fila 4 -->
+    <div class="label side-left" data-row="3" data-side="left">
+      <img class="label__cover" src="img/covers/nivel-plataforma.jpg" alt="Carátula de Nivel Plataforma" loading="lazy">
+      <span class="label__title">Nivel Plataforma</span>
+      <span class="label__tag">Noviembre 2024</span>
+    </div>
+    <div class="label side-right" data-row="3" data-side="right">
+      <img class="label__cover" src="img/covers/angels-maze.jpg" alt="Carátula de Angel's Maze" loading="lazy">
+      <span class="label__title">Angel's Maze</span>
+      <span class="label__tag">Octubre 2024</span>
+    </div>
+
+    <!-- Fila 5 -->
+    <div class="label side-left" data-row="4" data-side="left">
+      <img class="label__cover" src="img/covers/fes-ti-val.jpg" alt="Carátula de FES-TI-VAL" loading="lazy">
+      <span class="label__title">FES-TI-VAL</span>
+      <span class="label__tag">Octubre 2024</span>
+    </div>
+    <div class="label side-right" data-row="4" data-side="right">
+      <img class="label__cover" src="img/covers/gps.jpg" alt="Carátula de G.P.S: Ghost Papers Scissors" loading="lazy">
+      <span class="label__title">G.P.S: Ghost Papers Scissors</span>
+      <span class="label__tag">Septiembre 2024</span>
+    </div>
+
+    <!-- Fila 6 -->
+    <div class="label side-left" data-row="5" data-side="left">
+      <img class="label__cover" src="img/covers/bread-of-blood.jpg" alt="Carátula de Bread Of Blood" loading="lazy">
+      <span class="label__title">Bread Of Blood</span>
+      <span class="label__tag">Agosto 2024</span>
+    </div>
+    <div class="label side-right" data-row="5" data-side="right">
+      <img class="label__cover" src="img/covers/memories-of-isaac.jpg" alt="Carátula de The Memories of Isaac" loading="lazy">
+      <span class="label__title">The Memories of Isaac</span>
+      <span class="label__tag">Marzo 2024</span>
+    </div>
+
+    <!-- Fila 7 -->
+    <div class="label side-left" data-row="6" data-side="left">
+      <img class="label__cover" src="img/covers/metal-y-plomo.jpg" alt="Carátula de Metal y Plomo" loading="lazy">
+      <span class="label__title">Metal y Plomo</span>
+      <span class="label__tag">Diciembre 2023</span>
+    </div>
+
+    <div class="ball" id="ball" role="slider" tabindex="0"
+         aria-label="Bola de navegación. Flechas para moverte, Enter para entrar en un juego."
+         aria-valuemin="0" aria-valuemax="6" aria-valuenow="0"></div>
+  </div>
+</section>
+
+<!-- =================== LISTA ALTERNATIVA (accesible) =================== -->
+
+
+<footer class="site-footer">
+  David Barrios García · davidbarrgar@gmail.com · Madrid, España
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
